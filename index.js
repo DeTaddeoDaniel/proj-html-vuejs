@@ -48,6 +48,26 @@ new Vue({
                 title: 'Titolo 4',
                 testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
             },
+        ],
+
+        // sezione 4: card
+        sezione4:[
+            {
+                imgSrc: 'images/extra/sezione4item1.jpg',
+                imgAlt: 'Mare 1 immagine'
+            },
+            {
+                imgSrc: 'images/extra/sezione4item2.jpg',
+                imgAlt: 'Mare 2 immagine'
+            },
+            {
+                imgSrc:'images/extra/sezione4item3.jpg',
+                imgAlt: 'Mare 3 immagine'
+            },
+            {
+                imgSrc: 'images/extra/sezione4item4.jpg',
+                imgAlt: 'Mare 4 immagine'
+            },
         ]
     }
 })
