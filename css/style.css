@@ -109,6 +109,12 @@ body{
 
 .sezione2 .right{
     width: calc( ( 100vw / 12 ) * 3);
+    background-image: url('../images/extra/sfondoSezione2right.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--rosso);
+
 }
 
 .text-big{
