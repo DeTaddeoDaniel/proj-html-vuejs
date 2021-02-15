@@ -1,0 +1,25 @@
+:root{
+    --color1: #fff;
+    --color2: #353841;
+    --color3:#ed6864;
+    --color4: #bababc;
+    --color5: #78787b;
+    --color6:#fcd66c;
+    --color7: #92340f;
+
+    --color-8: #ebcac5;
+    --color-9: #3e3f47;
+    --color-10: #8d7c6d;
+    --color-11: #a1aba9;
+    --color-12: #8c9aa5;
+
+    --color-13: #ea6862;
+    --color-14: #a2abae;
+    --color-15: #3d2512;
+    --color-16: #171216;
+    --color-17: #e9c899;
+}
+
+body{
+    background-color: peru;
+}
