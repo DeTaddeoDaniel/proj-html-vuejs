@@ -2,6 +2,15 @@ img{
     width: 100%;
 }
 
+img.logo{
+    max-height: 70px;
+    width: auto;
+}
+
+.contain-img-logo{
+    padding: 20px;
+}
+
 .randomImage{
      background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
      background-repeat: no-repeat;
@@ -78,7 +87,8 @@ img{
 
 .btn-nav{
     border: 0;
-
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .btn-nav.select{

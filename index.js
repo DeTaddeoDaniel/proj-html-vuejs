@@ -3,6 +3,15 @@ new Vue({
 
     data:{
 
+        // nav
+        nav:[
+            'home',
+            'natura',
+            'spazio',
+            'curiosita',
+            'luoghi'
+        ],
+
         // sezione 2: sx element
         sezione2:[
             {

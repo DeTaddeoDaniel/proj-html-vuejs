@@ -20,29 +20,15 @@
         <div class="nav py-12">
             <div class="container flex-between-center">
                 <div class="left">
-                    <div class="contain-img">
-                        <img src="" alt="logo">
+                    <div class="contain-img-logo">
+                        <img class="logo" src="images/extra/Logo.png" alt="logo">
                     </div>
                 </div>
-                <div class="right uppercase dflex">
-                    <div>
-                        <span class="btn btn-nav select">Voce menu 1</span>
+                <div class="right uppercase text-bold dflex">
+                    <div v-for="(elementoNav, index) in nav">
+                        <span :class="(index == 0 ? 'btn btn-nav select' : 'btn btn-nav')">{{elementoNav}}</span>
                     </div>
-                    <div>
-                        <span class="btn btn-nav">Voce menu 2</span>
-                    </div>
-                    <div>
-                        <span class="btn btn-nav">Voce menu 3</span>
-                    </div>
-                    <div>
-                        <span class="btn btn-nav">Voce menu 4</span>
-                    </div>
-                    <div>
-                        <span class="btn btn-nav">Voce menu 5</span>
-                    </div>
-                    <div>
-                        <span class="btn btn-orange-full">Voce menu 1</span>
-                    </div>
+                    <span class="btn btn-orange-full">Donazioni</span>
                 </div>
             </div>
         </div>
