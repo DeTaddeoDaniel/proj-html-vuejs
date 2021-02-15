@@ -24,6 +24,10 @@ img{
     text-align: center;
 }
 
+.text-bold{
+    font-weight: bold;
+}
+
 .height-line-35{
     line-height: 35px;
 }
@@ -72,6 +76,19 @@ img{
     font-weight: bold;
 }
 
+.btn-nav{
+    border: 0;
+
+}
+
+.btn-nav.select{
+    color: var(--arancione);
+}
+
+.btn-nav:hover{
+    background-color: var(--grigioScuro);
+}
+
 /* --------------- FLEX ------------------------------ */
 
 .dflex-center-center{
@@ -89,6 +106,12 @@ img{
 .flex-between{
     display: flex;
     justify-content: space-between;
+}
+
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .flex-column{
@@ -163,6 +186,11 @@ img{
 .bg-white{
     background-color: var(--bianco);
     color: var(--grigio);
+}
+
+.bg-red{
+    background-color: var(--rosso);
+    color: var(--white);
 }
 
 .bg-red{

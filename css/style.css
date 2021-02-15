@@ -37,7 +37,6 @@
 }
 
 body{
-    background-color: peru;
     color: var(--bianco);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -77,6 +76,11 @@ body{
     transform: translateX(-50%);
 }
 
+.nav{
+    position: absolute;
+    width: 100%;
+}
+
 .sezione1{
     background-color: var(--color-16);
     background-image: url('../images/extra/sfondoSezione1.jpg');
@@ -84,7 +88,6 @@ body{
 
 .sezioneTesto{
     text-align: center;
-    font-size: var(font-size-medium);
 }
 
 .sezioneTesto .titleText{
