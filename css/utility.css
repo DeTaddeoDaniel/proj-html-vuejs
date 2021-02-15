@@ -24,6 +24,10 @@ img{
     text-align: center;
 }
 
+.height-line-35{
+    line-height: 35px;
+}
+
 .height-line-25{
     line-height: 25px;
 }
@@ -47,7 +51,7 @@ img{
 /* ----------------- PULSANTI ------------------------- */
 .btn{
     display: inline-block;
-    padding: 7px 14px;
+    padding: 10px 25px;
     border: 1px solid var(--bianco);
     border-radius: 5px;
 }
@@ -108,9 +112,14 @@ img{
     padding: 100px;
 }
 
-.py-40{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.py-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .py-12{
