@@ -44,10 +44,10 @@
                 <span class="btn btn-orange-full uppercase">Our mission</span>
             </div>
             <div class="right p-50 bg-red flex-column">
-                <div class="content text-center" v-for="numero in numeri">
+                <div class="content text-center" v-for="sezioneElemento in sezione2">
                     <div class="py-40">
-                        <p class="number text-big"><span v-html="numero.icon"></span> {{numero.numero}}</p>
-                        <p class="descrizione text-medium height-line-35"> {{numero.testo}}</p>
+                        <p class="number text-big"><span v-html="sezioneElemento.icon"></span> {{sezioneElemento.numero}}</p>
+                        <p class="descrizione text-medium height-line-35"> {{sezioneElemento.testo}}</p>
                     </div>
                 </div>
             </div>

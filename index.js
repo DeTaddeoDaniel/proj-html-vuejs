@@ -2,7 +2,9 @@ new Vue({
     el: '#app',
 
     data:{
-        numeri:[
+
+        // sezione 2: sx element
+        sezione2:[
             {
                 numero:2032,
                 testo: "Volontari nel mondo",
@@ -18,6 +20,9 @@ new Vue({
                 testo: "Donated",
                 icon:`<i class="fas fa-dollar-sign"></i>`
             },
-        ]
+        ],
+
+        // sezione 3: card
+        
     }
 })
