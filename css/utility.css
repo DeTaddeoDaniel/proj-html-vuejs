@@ -8,6 +8,10 @@
     line-height: 25px;
 }
 
+.text-black{
+    color: black;
+}
+
 /* ----------------- PULSANTI ------------------------- */
 .btn{
     display: inline-block;
@@ -72,7 +76,7 @@
 /* ------------------ BACKGROUND --------------------------------- */
 .bg-white{
     background-color: var(--bianco);
-    color: black;
+    color: var(--grigio);
 }
 
 .bg-red{
