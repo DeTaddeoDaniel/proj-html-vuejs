@@ -4,6 +4,10 @@
     text-transform: uppercase;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .height-line-25{
     line-height: 25px;
 }
@@ -43,6 +47,12 @@
     justify-content: center;
 }
 
+.dflex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dflex{
     display: flex;
 }
@@ -55,6 +65,15 @@
 /* ------------------ PADDING ------------------------------*/
 .p-100{
     padding: 100px;
+}
+
+.p-50{
+    padding: 50px;
+}
+
+.py-40{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .py-12{

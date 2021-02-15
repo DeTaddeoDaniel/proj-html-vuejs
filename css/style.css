@@ -95,11 +95,19 @@ body{
 }
 
 .sezione2 .left{
-    width: calc( ( 100vw / 12 ) * 8);
+    width: calc( ( 100vw / 12 ) * 9);
 }
 
 .sezione2 .right{
-    width: calc( ( 100vw / 12 ) * 4);
+    width: calc( ( 100vw / 12 ) * 3);
+}
+
+.text-big{
+    font-size: var(--font-size-big);
+}
+
+.text-medium{
+    font-size: var(--font-size-medium);
 }
 
 .text-small{
