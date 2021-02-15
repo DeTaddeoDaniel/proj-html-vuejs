@@ -1,3 +1,10 @@
+.randomImage{
+     background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* ---------------- TESTO --------------------------- */
 
 .uppercase{
@@ -14,6 +21,18 @@
 
 .text-black{
     color: black;
+}
+
+.text-white{
+    color: var(--bianco);
+}
+
+.text-orange{
+    color: var(--arancione);
+}
+
+.text-gray{
+    color: var(--grigio);
 }
 
 /* ----------------- PULSANTI ------------------------- */
@@ -53,6 +72,11 @@
     justify-content: center;
 }
 
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
 .dflex{
     display: flex;
 }
@@ -71,6 +95,10 @@
     padding: 50px;
 }
 
+.py-100{
+    padding: 100px;
+}
+
 .py-40{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -81,9 +109,18 @@
     padding-bottom: 12px;
 }
 
+.py-20{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
 .py-10{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
 }
 
 /* ------------------- MARGIN --------------------------------------*/
@@ -101,4 +138,13 @@
 .bg-red{
     background-color: var(--rosso);
     color: var(--white);
+}
+
+.bg-image{
+    color: var(--white);
+}
+
+/* ----------------- CARD -------------------------------------------*/
+.widthCard4{
+    width: calc(20% - 20px);
 }
