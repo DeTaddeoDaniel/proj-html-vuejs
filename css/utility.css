@@ -1,13 +1,61 @@
+/* ---------------- TESTO --------------------------- */
+
 .uppercase{
     text-transform: uppercase;
 }
 
+.height-line-25{
+    line-height: 25px;
+}
+
+/* ----------------- PULSANTI ------------------------- */
+.btn{
+    display: inline-block;
+    padding: 7px 14px;
+    border: 1px solid var(--bianco);
+    border-radius: 5px;
+}
+
+.btn-transparent{
+    background-color: transparent;
+
+}
+
+.btn-orange{
+    border-color: var(--arancione);
+    color: var(--arancione);
+}
+
+.btn-orange-full{
+    background-color: var(--arancione);
+    color: var(--bianco);
+}
+
+/* --------------- FLEX ------------------------------ */
+
+.dflex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex{
+    display: flex;
+}
+
+/* ----------------- DIMENSIONI ---------------------------- */
 .heightScreen{
     height: 100vh;
 }
 
+/* ------------------ PADDING ------------------------------*/
 .p-100{
     padding: 100px;
+}
+
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .py-10{
@@ -15,7 +63,19 @@
     padding-bottom: 10px;
 }
 
+/* ------------------- MARGIN --------------------------------------*/
 .mx-7{
     margin-left: 7px;
     margin-right: 7px;
+}
+
+/* ------------------ BACKGROUND --------------------------------- */
+.bg-white{
+    background-color: var(--bianco);
+    color: black;
+}
+
+.bg-red{
+    background-color: var(--rosso);
+    color: var(--white);
 }

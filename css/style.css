@@ -25,8 +25,9 @@
 
     /* font-size */
     --font-size-biggest: 56px;
-    --font-size-medium: 30px;
+    --font-size-big: 30px;
     --font-size-medium: 20px;
+    --font-size-small: 12px;
 }
 
 *,*::after,*::before{
@@ -48,15 +49,27 @@ body{
     margin-right: auto;
 }
 
+.titleDiv{
+    font-size: var(--font-size-big);
+    position: relative;
+}
+
+.titleDiv::after{
+    content: '';
+    background-color: var(--arancione);
+    height: 5px;
+    width: 140px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .sezione1{
     background-color: var(--color-16);
     background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .sezioneTesto{
@@ -77,28 +90,18 @@ body{
     display: block;
 }
 
-.btn{
-    display: inline-block;
-    padding: 7px 14px;
-    border: 1px solid var(--bianco);
-    border-radius: 5px;
-}
-
-.btn-transparent{
-    background-color: transparent;
-
-}
-
-.btn-orange{
-    border-color: var(--arancione);
-    color: var(--arancione);
-}
-
-.btn-orange-full{
-    background-color: var(--arancione);
-    color: var(--white);
-}
-
 .test{
     background-color: purple;
+}
+
+.sezione2 .left{
+    width: calc( ( 100vw / 12 ) * 8);
+}
+
+.sezione2 .right{
+    width: calc( ( 100vw / 12 ) * 4);
+}
+
+.text-small{
+    font-size: var(--font-size-small);
 }
