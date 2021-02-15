@@ -23,6 +23,31 @@ new Vue({
         ],
 
         // sezione 3: card
-        
+        sezione3:[
+            {
+                imgSrc:'images/extra/sezione3item1.jpg',
+                imgAlt:'immagine 1',
+                title: 'Titolo 1',
+                testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
+            },
+            {
+                imgSrc:'images/extra/sezione3item2.jpg',
+                imgAlt:'immagine 2',
+                title: 'Titolo 2',
+                testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
+            },
+            {
+                imgSrc:'images/extra/sezione3item3.jpg',
+                imgAlt:'immagine 3',
+                title: 'Titolo 3',
+                testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
+            },
+            {
+                imgSrc:'images/extra/sezione3item4.jpg',
+                imgAlt:'immagine 4',
+                title: 'Titolo 4',
+                testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
+            },
+        ]
     }
 })

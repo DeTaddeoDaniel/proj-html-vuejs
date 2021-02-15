@@ -68,7 +68,8 @@ img{
 
 .btn-orange-full{
     background-color: var(--arancione);
-    color: var(--bianco);
+    color: var(--grigioScuro);
+    font-weight: bold;
 }
 
 /* --------------- FLEX ------------------------------ */
