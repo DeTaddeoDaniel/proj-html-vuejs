@@ -1,3 +1,7 @@
+img{
+    width: 100%;
+}
+
 .randomImage{
      background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
      background-repeat: no-repeat;
@@ -7,6 +11,7 @@
 
 .element.randomImage{
     height: 300px;
+    width: 100%;
 }
 
 /* ---------------- TESTO --------------------------- */
@@ -118,6 +123,11 @@
     padding-bottom:20px;
 }
 
+.px-20{
+    padding-left: 20px;
+    padding-bottom:20px;
+}
+
 .py-10{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -150,5 +160,5 @@
 
 /* ----------------- CARD -------------------------------------------*/
 .widthCard4{
-    width: calc(20% - 20px);
+    width: calc(23%);
 }
