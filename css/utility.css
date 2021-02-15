@@ -2,6 +2,19 @@
     text-transform: uppercase;
 }
 
+.heightScreen{
+    height: 100vh;
+}
+
+.p-100{
+    padding: 100px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .mx-7{
     margin-left: 7px;
     margin-right: 7px;

@@ -25,6 +25,7 @@
 
     /* font-size */
     --font-size-biggest: 56px;
+    --font-size-medium: 30px;
     --font-size-medium: 20px;
 }
 
@@ -37,8 +38,8 @@
 body{
     background-color: peru;
     color: var(--bianco);
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -48,7 +49,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .sezione1{
-    height: 100vh;
     background-color: var(--color-16);
     background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
     background-repeat: no-repeat;
@@ -93,6 +93,12 @@ font-family: 'Roboto', sans-serif;
     border-color: var(--arancione);
     color: var(--arancione);
 }
+
+.btn-orange-full{
+    background-color: var(--arancione);
+    color: var(--white);
+}
+
 .test{
     background-color: purple;
 }
