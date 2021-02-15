@@ -79,6 +79,7 @@ body{
 
 .sezione1{
     background-color: var(--color-16);
+    background-image: url('../images/extra/sfondoSezione1.jpg');
 }
 
 .sezioneTesto{
