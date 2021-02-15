@@ -90,6 +90,12 @@ img{
     justify-content: space-between;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .dflex{
     display: flex;
 }

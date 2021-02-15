@@ -14,187 +14,187 @@
 </head>
 <body>
 
-    <!-- sezione 1 -->
-    <section>
-        <div class="sezione1 randomImage">
-            <div class="container heightScreen dflex-center-center">
-                <div class="sezioneTesto">
-                    <p class="titleText uppercase">Make a difference</p>
-                    <p class="descritionTitle">Il testo descrive il titolo dell'immagine, qui metto altro testo per riempire</p>
-                    <div class="buttonContainer">
-                        <span class="btn btn-transparent uppercase mx-7">Our mission</span>
-                        <span class="btn btn-orange uppercase mx-7">Donate now</span>
+    <div id="app">
+
+        <!-- sezione 1 -->
+        <section>
+            <div class="sezione1 randomImage">
+                <div class="container heightScreen dflex-center-center">
+                    <div class="sezioneTesto">
+                        <p class="titleText uppercase">Make a difference</p>
+                        <p class="descritionTitle">Il testo descrive il titolo dell'immagine, qui metto altro testo per riempire</p>
+                        <div class="buttonContainer">
+                            <span class="btn btn-transparent uppercase mx-7">Our mission</span>
+                            <span class="btn btn-orange uppercase mx-7">Donate now</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- sezione 2 -->
-    <section class="sezione2 dflex">
-        <div class="left p-100 bg-white">
-            <p class="titleDiv uppercase text-black">every moment for new</p>
-            <div class="text-small text-small">
-                <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio dicta ex quia facilis placeat quo iusto delectus, soluta vitae aliquam iure porro, sequi inventore possimus fugit explicabo necessitatibus. Aperiam!</p>
-                <p class="py-10 height-line-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam minus fuga, iure iusto dolorem animi?</p>
-                <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est explicabo illum eligendi dolores neque facilis earum aperiam, architecto minima incidunt voluptates autem placeat non, laudantium officiis maxime iusto? Maxime.</p>
+        <!-- sezione 2 -->
+        <section class="sezione2 dflex">
+            <div class="left p-100 bg-white">
+                <p class="titleDiv uppercase text-black">every moment for new</p>
+                <div class="text-small text-small">
+                    <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio dicta ex quia facilis placeat quo iusto delectus, soluta vitae aliquam iure porro, sequi inventore possimus fugit explicabo necessitatibus. Aperiam!</p>
+                    <p class="py-10 height-line-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam minus fuga, iure iusto dolorem animi?</p>
+                    <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est explicabo illum eligendi dolores neque facilis earum aperiam, architecto minima incidunt voluptates autem placeat non, laudantium officiis maxime iusto? Maxime.</p>
+                </div>
+                <span class="btn btn-orange-full uppercase">Our mission</span>
             </div>
-            <span class="btn btn-orange-full uppercase">Our mission</span>
-        </div>
-        <div class="right p-50 bg-red dflex-center-center">
-            <div class="content text-center">
-                <div class="py-40">
-                    <p class="number text-big"><i class="far fa-heart"></i> 2032</p>
-                    <p class="descrizione text-medium height-line-35"> Volontarees wordwide</p>
-                </div>
-                <div class="py-40">
-                    <p class="number text-big"><i class="fas fa-globe"></i> 132</p>
-                    <p class="descrizione text-medium height-line-35"> Active project</p>
-                </div>
-                <div class="py-40">
-                    <p class="number text-big"><i class="fas fa-dollar-sign"></i> 3.2 M</p>
-                    <p class="descrizione text-medium height-line-35"> Donated</p>
+            <div class="right p-50 bg-red flex-column">
+                <div class="content text-center" v-for="numero in numeri">
+                    <div class="py-40">
+                        <p class="number text-big"><span v-html="numero.icon"></span> {{numero.numero}}</p>
+                        <p class="descrizione text-medium height-line-35"> {{numero.testo}}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- sezione 3 -->
-    <section class="bg-image randomImage">
-        <div class="container text-center">
-            <div class="header-section py-100">
-                <p class="text-big titleDiv-center">Titolo sezione</p>
-                <p class="text-medium">sottotitolo</p>
+        <!-- sezione 3 -->
+        <section class="bg-image randomImage">
+            <div class="container text-center">
+                <div class="header-section py-100">
+                    <p class="text-big titleDiv-center">Titolo sezione</p>
+                    <p class="text-medium">sottotitolo</p>
+                </div>
+
+                <div class="container">
+                    <div class="slider flex-between">
+                        
+                        <div class="element pb-100 widthCard4">
+                            
+                            <div class="element-header">
+                                <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
+                                <p class="text-medium text-white">testo del icona</p>
+                            </div>
+                            
+                            <div class="element-body py-20">
+                                <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
+                            </div>
+                            
+                            <div class="element footer">
+                                <span class="btn btn-orange-full uppercase">Our mission</span>
+                            </div>
+
+                        </div>
+
+                        <div class="element pb-100 widthCard4">
+                            
+                            <div class="element-header">
+                                <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
+                                <p class="text-medium text-white">testo del icona</p>
+                            </div>
+                            
+                            <div class="element-body py-20">
+                                <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
+                            </div>
+                            
+                            <div class="element footer">
+                                <span class="btn btn-orange-full uppercase">Our mission</span>
+                            </div>
+
+                        </div>
+
+                        <div class="element pb-100 widthCard4">
+                            
+                            <div class="element-header">
+                                <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
+                                <p class="text-medium text-white">testo del icona</p>
+                            </div>
+                            
+                            <div class="element-body py-20">
+                                <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
+                            </div>
+                            
+                            <div class="element footer">
+                                <span class="btn btn-orange-full uppercase">Our mission</span>
+                            </div>
+
+                        </div>
+
+                        <div class="element pb-100 widthCard4">
+                            
+                            <div class="element-header">
+                                <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
+                                <p class="text-medium text-white">testo del icona</p>
+                            </div>
+                            
+                            <div class="element-body py-20">
+                                <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
+                            </div>
+                            
+                            <div class="element footer">
+                                <span class="btn btn-orange-full uppercase">Our mission</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+        
+        <!-- sezione 4 -->
+        <section class="bg-white">
+            <div class="container text-center">
+                <div class="header-section py-100">
+                    <p class="text-big titleDiv-center">Titolo sezione</p>
+                    <p class="text-medium">sottotitolo</p>
+                </div>
 
+                <div class="container">
+                    <div class="slider flex-between pb-100">
+
+                        <div class="element widthCard4">
+                            
+                            <div class="contain-img randomImage">
+                                <img src="images/fss-demo-main-400x300.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="element widthCard4 ">
+                            
+                            <div class="contain-img randomImage">
+                                <img src="images/fss-demo-main-400x300.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="element widthCard4">
+                            
+                            <div class="contain-img randomImage">
+                                <img src="images/fss-demo-main-400x300.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="element widthCard4">
+                            
+                            <div class="contain-img randomImage">
+                                <img src="images/fss-demo-main-400x300.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sezione 5 -->
+        <section class=" bg-red text-center">
             <div class="container">
-                <div class="slider flex-between">
-                    
-                    <div class="element pb-100 widthCard4">
-                        
-                        <div class="element-header">
-                            <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
-                            <p class="text-medium text-white">testo del icona</p>
-                        </div>
-                        
-                        <div class="element-body py-20">
-                            <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
-                        </div>
-                        
-                        <div class="element footer">
-                            <span class="btn btn-orange-full uppercase">Our mission</span>
-                        </div>
-
-                    </div>
-
-                    <div class="element pb-100 widthCard4">
-                        
-                        <div class="element-header">
-                            <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
-                            <p class="text-medium text-white">testo del icona</p>
-                        </div>
-                        
-                        <div class="element-body py-20">
-                            <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
-                        </div>
-                        
-                        <div class="element footer">
-                            <span class="btn btn-orange-full uppercase">Our mission</span>
-                        </div>
-
-                    </div>
-
-                    <div class="element pb-100 widthCard4">
-                        
-                        <div class="element-header">
-                            <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
-                            <p class="text-medium text-white">testo del icona</p>
-                        </div>
-                        
-                        <div class="element-body py-20">
-                            <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
-                        </div>
-                        
-                        <div class="element footer">
-                            <span class="btn btn-orange-full uppercase">Our mission</span>
-                        </div>
-
-                    </div>
-
-                    <div class="element pb-100 widthCard4">
-                        
-                        <div class="element-header">
-                            <p class="text-bigger text-orange"><i class="fas fa-file"></i></p>
-                            <p class="text-medium text-white">testo del icona</p>
-                        </div>
-                        
-                        <div class="element-body py-20">
-                            <p class="text-small text-gray height-line-25">descricion del icona con messaggio  casuale , per esempio lorem</p>
-                        </div>
-                        
-                        <div class="element footer">
-                            <span class="btn btn-orange-full uppercase">Our mission</span>
-                        </div>
-
-                    </div>
-                </div>
+                <p class="py-30 text-medium">View all</p>
             </div>
-        </div>
-    </section>
-    
-    <!-- sezione 4 -->
-    <section class="bg-white">
-        <div class="container text-center">
-            <div class="header-section py-100">
-                <p class="text-big titleDiv-center">Titolo sezione</p>
-                <p class="text-medium">sottotitolo</p>
-            </div>
+        </section>
 
-            <div class="container">
-                <div class="slider flex-between pb-100">
+    </div>
 
-                    <div class="element widthCard4">
-                        
-                        <div class="contain-img randomImage">
-                            <img src="images/fss-demo-main-400x300.jpg" alt="">
-                        </div>
 
-                    </div>
-
-                    <div class="element widthCard4 ">
-                        
-                        <div class="contain-img randomImage">
-                            <img src="images/fss-demo-main-400x300.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="element widthCard4">
-                        
-                        <div class="contain-img randomImage">
-                            <img src="images/fss-demo-main-400x300.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="element widthCard4">
-                        
-                        <div class="contain-img randomImage">
-                            <img src="images/fss-demo-main-400x300.jpg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- sezione 5 -->
-    <section class=" bg-red text-center">
-        <div class="container">
-            <p class="py-30 text-medium">View all</p>
-        </div>
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
