@@ -5,6 +5,10 @@
     background-position: center;
 }
 
+.element.randomImage{
+    height: 300px;
+}
+
 /* ---------------- TESTO --------------------------- */
 
 .uppercase{
