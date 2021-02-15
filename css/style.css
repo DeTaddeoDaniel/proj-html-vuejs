@@ -1,10 +1,10 @@
 :root{
-    --color1: #fff;
+    --bianco: #fff;
     --color2: #353841;
     --color3:#ed6864;
     --color4: #bababc;
     --color5: #78787b;
-    --color6:#fcd66c;
+    --arancione:#fcd66c;
     --color7: #92340f;
 
     --color-8: #ebcac5;
@@ -13,7 +13,7 @@
     --color-11: #a1aba9;
     --color-12: #8c9aa5;
 
-    --color-13: #ea6862;
+    --rosso: #ea6862;
     --color-14: #a2abae;
     --color-15: #3d2512;
     --color-16: #171216;
@@ -22,4 +22,43 @@
 
 body{
     background-color: peru;
+    color: var(--bianco);
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sezione1{
+    height: 100vh;
+    background-color: var(--color-16);
+    background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sezioneTesto{
+
+}
+
+.sezioneTesto .titleText{
+    text-transform: uppercase;
+}
+
+.sezioneTesto .descritionTitle{
+
+}
+
+.sezioneTesto .descritionTitle{
+
+}
+
+.test{
+    background-color: purple;
 }
