@@ -126,6 +126,13 @@ img.logo{
     border: 0;
 }
 
+.btn-orange-full:hover{
+    background-color: black;
+    color: var(--bianco);
+    font-weight: bold;
+    border: 0;
+}
+
 .btn-red-full{
     background-color: var(--rosso);
     color: var(--bianco);
@@ -145,6 +152,7 @@ img.logo{
 
 .btn-nav:hover{
     background-color: var(--grigioScuro);
+    color: var(--arancione);
 }
 
 .max-h-450{
@@ -318,6 +326,10 @@ img.logo{
 .bg-red{
     background-color: var(--rosso);
     color: var(--white);
+}
+
+.bg-red:hover{
+    background-color: var(--azzurro);
 }
 
 .bg-yellow{
