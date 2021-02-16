@@ -276,6 +276,10 @@ img.logo{
     width: calc(70%);
 }
 
+.w-30{
+    max-width: calc(30%);
+}
+
 .h-100{
     height: 100%;
 }
