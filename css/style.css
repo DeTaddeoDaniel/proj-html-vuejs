@@ -28,6 +28,8 @@
     --font-size-big: 30px;
     --font-size-medium: 20px;
     --font-size-small: 12px;
+
+    --verde: #85CB33;
 }
 
 *,*::after,*::before{

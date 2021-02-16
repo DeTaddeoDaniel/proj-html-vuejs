@@ -19,17 +19,20 @@
         <!-- menu -->
         <div class="nav py-12">
             <div class="container flex-between-center">
+                
                 <div class="left">
                     <div class="contain-img-logo">
                         <img class="logo" src="images/extra/Logo.png" alt="logo">
                     </div>
                 </div>
+                
                 <div class="right uppercase text-bold dflex">
                     <div v-for="(elementoNav, index) in nav">
                         <span :class="(index == 0 ? 'btn btn-nav select' : 'btn btn-nav')">{{elementoNav}}</span>
                     </div>
                     <span class="btn btn-orange-full">Donazioni</span>
                 </div>
+
             </div>
         </div>
 
