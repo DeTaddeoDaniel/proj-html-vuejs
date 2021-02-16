@@ -109,6 +109,10 @@ img.logo{
     border-radius: 5px;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+}
+
 .btn-transparent{
     background-color: transparent;
 }
@@ -142,6 +146,11 @@ img.logo{
     color: var(--bianco);
     font-weight: bold;
     border: 0;
+}
+
+.btn-red-full:hover{
+    background-color: var(--azzurro);
+    transform: scale(1);
 }
 
 .btn-nav{
