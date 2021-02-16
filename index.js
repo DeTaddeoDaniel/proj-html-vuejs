@@ -77,6 +77,38 @@ new Vue({
                 imgSrc: 'images/extra/sezione4item4.jpg',
                 imgAlt: 'Mare 4 immagine'
             },
-        ]
+        ],
+
+        // sezione 4: card
+        sezione5:{
+            left:{
+                imgSrc: 'images/extra/sezione6item1.webp',
+                title: 'Cala Luna, Italia',
+                text: 'Una spiaggia delle meraviglie che. Perché l’azzurro di Cala Luna è davvero qualcosa di unico: sfumato di blu e abbracciato da una lingua di sabbia bianca costellata di grotte naturali, che lasciano riparare dal sole come per magia!'
+            },
+
+            right:[  
+                {
+                    imgSrc: 'images/extra/sezione6item2.webp',
+                    title: 'Ponte di Bastei, Germania',
+                    text: ' si innalzano speroni rocciosi millenari, e tra questi spunta un’incredibile passerella di 194 metri che permette di camminare tra la roccia e godere di uno dei paesaggi più belli e unici di tutta la Germania'
+                },      
+                {
+                    imgSrc: 'images/extra/sezione6item3.webp',
+                    title: 'Plitvice Lakes National Park, Croatia',
+                    text: ' The Plitvice Lakes National Park is a real earthly paradise made of rivers, waterfalls and lakes where nature explodes in all its beauty showing off the most sparkling colors'
+                },    
+                {
+                    imgSrc: 'images/extra/sezione6item4.webp',
+                    title: 'Trolltunga, Norvegia',
+                    text: ' Questa roccia sospesa nel vuoto si trova nella regione dell’Hardangerfjord, la stessa che ospita il ghiacciaio Folgefonna, eden di ghiaccio eterno'
+                },
+                {
+                    imgSrc: 'images/extra/sezione6item5.webp',
+                    title: 'Danubio, Austria',
+                    text: '  paesaggi della Valle del Danubio: come la Schloegener Schlinge, un’ansa-gioiello. Scendete poi in Bassa Austria e affrontate il Wachau World Heritage Trail, fra le pittoresche cittadine di Melk e Krems.'
+                },            
+            ]
+        }
     }
 })
