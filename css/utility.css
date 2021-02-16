@@ -255,6 +255,10 @@ img.logo{
 }
 
 .h-25{
+    height: 25%;
+}
+
+.h-25{
     height: calc(25%);
     width: auto;
 }
