@@ -217,12 +217,11 @@
 
         <!-- footer -->
         <section class="bg-gray text-center py-30">
-            <p class="pb-30 text-white">Copyright linea lunga lunga che si scrivera</p>
-            <div class="contatti text-white text-medium d-flex-center-center">
-                <span class="social mx-50"><p><i class="fab fa-facebook-f"></i></p></span>
-                <span class="social mx-20"><p><i class="fab fa-instagram"></i></p></span>
-                <span class="social mx-20"><p><i class="fab fa-twitter"></i></p></span>
-                <span class="social mx-20"><p><i class="fab fa-youtube"></i></p></span>
+            <p class="pb-30 text-white">Copyright del layout della pagina,frase lunga lunga, e con altrotesto aggiunto</p>
+            <div class="contatti text-white text-medium dflex-center">
+                <div class="social mx-10" v-for="social in socials">
+                    <p v-html="social"></p>
+                </div>
             </div>
         </section>
 

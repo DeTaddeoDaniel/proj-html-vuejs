@@ -79,7 +79,7 @@ new Vue({
             },
         ],
 
-        // sezione 4: card
+        // sezione 6: card
         sezione6:{
 
             left:{
@@ -110,6 +110,14 @@ new Vue({
                     text: '  Per chi ancora non lo sapesse, in Val Pusteria, ai piedi della maestosa Croda del Becco, si trova un meraviglioso lago alpino dai colori sgargianti che virano dal turchino allo smeraldo, e che riflettono come uno specchio la parete dolomitica che vi si affaccia incontrastata.'
                 },            
             ]
-        }
+        },
+
+        // footer social
+        socials:[
+            `<i class="fab fa-facebook-f"></i>`,
+            `<i class="fab fa-instagram"></i>`,
+            `<i class="fab fa-twitter"></i>`,
+            `<i class="fab fa-youtube"></i>`
+        ],
     }
 })
