@@ -111,7 +111,11 @@ img.logo{
 
 .btn-transparent{
     background-color: transparent;
+}
 
+.btn-transparent:hover{
+    border-color: var(--arancione);
+    color: var(--arancione);
 }
 
 .btn-orange{
