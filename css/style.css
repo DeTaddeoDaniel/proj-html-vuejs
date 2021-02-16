@@ -16,8 +16,10 @@
     --coloreCopiright: #8d7c6d;
     --grigioChiaro: #a1aba9;
     --color-12: #8c9aa5;
+    --giallo: #F6F5AE;
+    --giallo-dark: #d6a009;
 
-    --rosso: #ea6862;
+    --rosso: #f7190f;
     --color-14: #a2abae;
     --color-15: #3d2512;
     --color-16: #171216;
@@ -83,11 +85,6 @@ body{
     width: 100%;
 }
 
-.sezione1{
-    background-color: var(--color-16);
-    background-image: url('../images/extra/sfondoSezione1.jpg');
-}
-
 .sezioneTesto{
     text-align: center;
 }
@@ -115,10 +112,6 @@ body{
 
 .sezione2 .right{
     width: calc( ( 100vw / 12 ) * 3);
-    background-image: url('../images/extra/sfondoSezione2right.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: var(--rosso);
 
 }

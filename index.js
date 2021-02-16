@@ -6,10 +6,9 @@ new Vue({
         // nav
         nav:[
             'home',
-            'natura',
-            'spazio',
-            'curiosita',
-            'luoghi'
+            'mission',
+            'causes',
+            'journal',
         ],
 
         // sezione 2: sx element
@@ -25,7 +24,7 @@ new Vue({
                 icon:`<i class="fas fa-globe">`
             },
             {
-                numero:'3.2 M',
+                numero:'3.8 M',
                 testo: "Donated",
                 icon:`<i class="fas fa-dollar-sign"></i>`
             },
@@ -34,27 +33,27 @@ new Vue({
         // sezione 3: card
         sezione3:[
             {
-                imgSrc:'images/extra/sezione3item1.jpg',
-                imgAlt:'immagine 1',
-                title: 'Titolo 1',
+                imgSrc:`<i class="fas fa-tint"></i>`,
+                imgAlt:'clean water image',
+                title: 'clean water ',
                 testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
             },
             {
-                imgSrc:'images/extra/sezione3item2.jpg',
-                imgAlt:'immagine 2',
-                title: 'Titolo 2',
+                imgSrc:`<i class="fas fa-heartbeat"></i>`,
+                imgAlt:'vaccionations image',
+                title: 'Tivaccionations',
                 testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
             },
             {
-                imgSrc:'images/extra/sezione3item3.jpg',
-                imgAlt:'immagine 3',
-                title: 'Titolo 3',
+                imgSrc:`<i class="fas fa-graduation-cap"></i>`,
+                imgAlt:'education image',
+                title: 'education',
                 testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
             },
             {
-                imgSrc:'images/extra/sezione3item4.jpg',
-                imgAlt:'immagine 4',
-                title: 'Titolo 4',
+                imgSrc:`<i class="fas fa-seedling"></i>`,
+                imgAlt:'farming image',
+                title: 'farming',
                 testo:"Nullam convalids,orci congue aliquet, diam maiurus curso, urna maxium lecture magna maxium"
             },
         ],
@@ -62,20 +61,20 @@ new Vue({
         // sezione 4: card
         sezione4:[
             {
-                imgSrc: 'images/extra/sezione4item1.jpg',
-                imgAlt: 'Mare 1 immagine'
+                imgSrc: 'images/avada-charity-fair-trade-featured.jpg',
+                imgAlt: 'trade'
             },
             {
-                imgSrc: 'images/extra/sezione4item2.jpg',
-                imgAlt: 'Mare 2 immagine'
+                imgSrc: 'images/avada-charity-shelter-featured.jpg',
+                imgAlt: 'shelter'
             },
             {
-                imgSrc:'images/extra/sezione4item3.jpg',
-                imgAlt: 'Mare 3 immagine'
+                imgSrc:'images/avada-charity-farming-featured.jpg',
+                imgAlt: 'farming'
             },
             {
-                imgSrc: 'images/extra/sezione4item4.jpg',
-                imgAlt: 'Mare 4 immagine'
+                imgSrc: 'images/avada-charity-vaccines-featured.jpg',
+                imgAlt: 'vaccines'
             },
         ],
 
@@ -83,31 +82,31 @@ new Vue({
         sezione6:{
 
             left:{
-                imgSrc: 'images/extra/sezione6item1.webp',
-                title: 'Cala Luna, Italia',
-                text: 'Una spiaggia delle meraviglie che. Perché l’azzurro di Cala Luna è davvero qualcosa di unico: sfumato di blu e abbracciato da una lingua di sabbia bianca costellata di grotte naturali, che lasciano riparare dal sole come per magia!'
+                imgSrc: 'images/photo-1444213007800-cff19e1677ac.jpg',
+                title: 'Understanding community complexities',
+                text: 'lorem ipsum dolor amet. consecturetur adiscpoing maree. Prasent ac bibh vestibulum, loreet ipsum.'
             },
 
             right:[  
                 {
-                    imgSrc: 'images/extra/sezione6item2.webp',
-                    title: 'Ponte di Bastei, Germania',
-                    text: ' si innalzano speroni rocciosi millenari, e tra questi spunta un’incredibile passerella di 194 metri che permette di camminare tra la roccia e godere di uno dei paesaggi più belli e unici di tutta la Germania'
+                    imgSrc: 'images/photo-1444664597500-035db93e2323-177x142.jpg',
+                    title: 'The human story of uniqueness',
+                    text: ' lorem ipsum dolor amet. consecturetur adiscpoing maree. Prasent ac bibh vestibulum, loreet ipsum.'
                 },      
                 {
-                    imgSrc: 'images/extra/sezione6item3.webp',
-                    title: 'Plitvice Lakes National Park, Croatia',
-                    text: ' The Plitvice Lakes National Park is a real earthly paradise made of rivers, waterfalls and lakes where nature explodes in all its beauty showing off the most sparkling colors'
+                    imgSrc: 'images/photo-1447430617419-95715602278e-177x142.jpg',
+                    title: 'Sustainable trade tactics',
+                    text: ' lorem ipsum dolor amet. consecturetur adiscpoing maree. Prasent ac bibh vestibulum, loreet ipsum.'
                 },    
                 {
-                    imgSrc: 'images/extra/sezione6item4.webp',
-                    title: 'Trolltunga, Norvegia',
-                    text: ' Questa roccia sospesa nel vuoto si trova nella regione dell’Hardangerfjord, la stessa che ospita il ghiacciaio Folgefonna, eden di ghiaccio eterno'
+                    imgSrc: 'images/photo-1460230525622-630fe3294cd7-177x142.jpg',
+                    title: 'Farmers making a difference',
+                    text: ' lorem ipsum dolor amet. consecturetur adiscpoing maree. Prasent ac bibh vestibulum, loreet ipsum.'
                 },
                 {
-                    imgSrc: 'images/extra/sezione6item5.webp',
-                    title: 'Lago di Braies, Italia',
-                    text: '  Per chi ancora non lo sapesse, in Val Pusteria, ai piedi della maestosa Croda del Becco, si trova un meraviglioso lago alpino dai colori sgargianti che virano dal turchino allo smeraldo, e che riflettono come uno specchio la parete dolomitica che vi si affaccia incontrastata.'
+                    imgSrc: 'images/photo-1460600421604-5e138c208b9c-177x142.jpg',
+                    title: 'Meeting remote tribu in Peru',
+                    text: '  lorem ipsum dolor amet. consecturetur adiscpoing maree. Prasent ac bibh vestibulum, loreet ipsum..'
                 },            
             ]
         },

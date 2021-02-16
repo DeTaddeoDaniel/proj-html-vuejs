@@ -11,8 +11,29 @@ img.logo{
     padding: 20px;
 }
 
-.randomImage{
-    background-image: url('https://www.wallpapertip.com/wmimgs/12-123128_dark-blue-blur-background.jpg');
+.bg-image-1{
+    background-image: url('../images/home-page-slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-2{
+    background-image: url('../images/home-content-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-3{
+    background-image: url('../images/home-content-bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-4{
+    background-image: url('../images/home-footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,6 +48,10 @@ img.logo{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
 }
 
 .text-center{
@@ -61,8 +86,15 @@ img.logo{
     color: var(--arancione);
 }
 
+.text-orange-dark{
+    color: var(--giallo-dark);
+}
+
 .text-gray{
     color: var(--grigio);
+}
+.text-gray-light{
+    color: var(--grigioChiaro);
 }
 
 .text-gray-dark{
@@ -91,6 +123,14 @@ img.logo{
     background-color: var(--arancione);
     color: var(--grigioScuro);
     font-weight: bold;
+    border: 0;
+}
+
+.btn-red-full{
+    background-color: var(--rosso);
+    color: var(--bianco);
+    font-weight: bold;
+    border: 0;
 }
 
 .btn-nav{
@@ -108,7 +148,7 @@ img.logo{
 }
 
 .max-h-450{
-    height: 470px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -271,14 +311,20 @@ img.logo{
 }
 /* ------------------ BACKGROUND --------------------------------- */
 .bg-white{
-    background-color: var(--grigioSezioni);
-    color: var(--grigio);
+    background-color: var(--white);
+    color: black;
 }
 
 .bg-red{
     background-color: var(--rosso);
     color: var(--white);
 }
+
+.bg-yellow{
+    background-color: var(--giallo);
+    color: black;
+}
+
 
 .bg-gray{
     background-color: var(--grigio);

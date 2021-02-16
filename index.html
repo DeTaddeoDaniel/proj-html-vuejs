@@ -22,7 +22,7 @@
                 
                 <div class="left">
                     <div class="contain-img-logo">
-                        <img class="logo" src="images/extra/Logo.png" alt="logo">
+                        <img class="logo" src="images/avada-charity-logo.png" alt="logo">
                     </div>
                 </div>
                 
@@ -30,7 +30,7 @@
                     <div v-for="(elementoNav, index) in nav">
                         <span :class="(index == 0 ? 'btn btn-nav select' : 'btn btn-nav')">{{elementoNav}}</span>
                     </div>
-                    <span class="btn btn-orange-full">Donazioni</span>
+                    <span class="btn btn-orange-full">Donate</span>
                 </div>
 
             </div>
@@ -38,14 +38,14 @@
 
         <!-- sezione 1 -->
         <section>
-            <div class="sezione1 randomImage">
+            <div class="sezione1 bg-image-1">
                 <div class="container heightScreen dflex-center-center">
                     <div class="sezioneTesto">
-                        <p class="titleText uppercase text-bold">Le stelle dello spazio</p>
-                        <p class="descritionTitle text-big py-30">Lo spazio visto dalla terra in una notte stellata con le montagne</p>
+                        <p class="titleText uppercase text-bold">Make a difference</p>
+                        <p class="descritionTitle text-big py-30">As long as poverty, injudtice & inequality persist, none of use can truly rest</p>
                         <div class="buttonContainer text-medium">
-                            <span class="text-bold btn btn-transparent uppercase mx-7">Curiosità astronomiche</span>
-                            <span class="text-bold btn btn-orange uppercase mx-7">Archivio di foto</span>
+                            <span class="text-bold btn btn-transparent uppercase mx-7">our mission</span>
+                            <span class="text-bold btn btn-orange uppercase mx-7">donate now</span>
                         </div>
                     </div>
                 </div>
@@ -55,17 +55,18 @@
         <!-- sezione 2 -->
         <section class="sezione2 dflex">
             
-            <div class="left p-100 bg-white">
-                <p class="titleDiv uppercase text-black">Alcuni dati sui più belli posti del mondo</p>
-                <div class="text-small text-small">
-                    <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio dicta ex quia facilis placeat quo iusto delectus, soluta vitae aliquam iure porro, sequi inventore possimus fugit explicabo necessitatibus. Aperiam!</p>
-                    <p class="py-10 height-line-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam minus fuga, iure iusto dolorem animi?</p>
-                    <p class="py-10 height-line-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est explicabo illum eligendi dolores neque facilis earum aperiam, architecto minima incidunt voluptates autem placeat non, laudantium officiis maxime iusto? Maxime.</p>
+            <div class="left p-100 bg-yellow">
+                <p class="titleDiv uppercase text-black">every moment counts</p>
+                
+                <div class="pb-20">
+                    <p class="py-10 height-line-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique quae mollitia velit beatae quis reiciendis voluptatem nobis excepturi saepe temporibus harum expedita.</p>
+                    <p class="py-10 height-line-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, laboriosam quae! Libero dolore fugiat culpa reiciendis laudantium perferendis voluptate nihil animi ut autem. Quo mollitia neque ipsum corporis maxime unde.</p>
+                    <p class="py-10 height-line-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla porro voluptatum.</p>
                 </div>
                 <span class="btn btn-orange-full uppercase">Premi per più info</span>
             </div>
             
-            <div class="right p-50 flex-column">
+            <div class="right p-50 bg-image-2 flex-column">
                 <div class="content text-center" v-for="sezioneElemento in sezione2">
                     <div class="py-40">
                         <p class="number text-big"><span v-html="sezioneElemento.icon"></span> {{sezioneElemento.numero}}</p>
@@ -76,29 +77,29 @@
         </section>
 
         <!-- sezione 3 -->
-        <section class="bg-image randomImage">
+        <section class="bg-image bg-image-3">
             <div class="container text-center">
                 <div class="header-section py-100">
-                    <p class="text-big titleDiv-center uppercase">Alcuni luogi spettacolari</p>
-                    <p class="text-medium">Se sei curioso premi il pulsante</p>
+                    <p class="text-big titleDiv-center uppercase">our values</p>
+                    <p class="text-medium capitalize">think big. act bigger</p>
                 </div>
 
                 <div class="container">
-                    <div class="slider flex-between">
+                    <div class="slider flex-between capitalize">
                         
                         <div class="element pb-100 widthCard4" v-for="elemento in sezione3">
                             
                             <div class="element-header">
-                                <img :src="elemento.imgSrc" :alt="elemento.imgAlt">
+                                <p class="text-bigger text-orange" v-html="elemento.imgSrc"></p>
                                 <p class="text-medium text-white">{{elemento.title}}</p>
                             </div>
                             
                             <div class="element-body py-20">
-                                <p class="text-small text-gray height-line-25">{{elemento.testo}}</p>
+                                <p class="text-small text-gray-light height-line-25">{{elemento.testo}}</p>
                             </div>
                             
                             <div class="element footer">
-                                <span class="btn btn-orange-full uppercase">Curiosità del luogo</span>
+                                <span class="btn btn-orange-full uppercase">learn more</span>
                             </div>
 
                         </div>
@@ -109,15 +110,15 @@
         </section>
         
         <!-- sezione 4 -->
-        <section class="bg-white">
+        <section class="bg-yellow">
             <div class="container text-center">
                 
                 <div class="header-section py-100">
-                    <p class="text-big titleDiv-center text-black uppercase">L'acqua del mare incontra la terra ferma</p>
-                    <p class="text-medium">Alcune spiagge dove il suono delle onde ti rilassa</p>
+                    <p class="text-big titleDiv-center text-black uppercase">recent causes</p>
+                    <p class="text-medium">We run project in over 30 countries in 5 continents</p>
                 </div>
 
-                <div class="container">
+                <div class="container text-black">
                     <div class="slider flex-between pb-100">
 
                         <div class="element widthCard4" v-for="elemento in sezione4">
@@ -135,18 +136,18 @@
         <!-- sezione 5 -->
         <section class=" bg-red text-center">
             <div class="container">
-                <p class="py-30 text-medium">View all</p>
+                <p class="py-30 text-medium">View all our causes</p>
             </div>
         </section>
 
         <!-- sezione 6 -->
-        <section class="randomImage text-center pb-100">
+        <section class="bg-yellow text-center pb-100">
             
             <div class="container">
                 
                 <div class="header-section py-100">
-                    <p class="text-big titleDiv-center uppercase">Ultimi articoli</p>
-                    <p class="text-medium">Alcuni articoli sui più belli del mondo </p>
+                    <p class="text-big titleDiv-center uppercase">Latest articles</p>
+                    <p class="text-medium">Tonether we make all the difference </p>
                 </div>
 
                 <div class="dflex">
@@ -157,7 +158,7 @@
                             <img class="pb-20" :src="sezione6.left.imgSrc" :alt="sezione6.left.title">
 
                             <div class="card-main px-20">
-                                <p class="title text-orange text-bold text-medium pb-20">{{sezione6.left.title}}</p>
+                                <p class="title text-orange-dark text-bold text-medium pb-20">{{sezione6.left.title}}</p>
                                 <p class="max-h-29 descrition text-gray text-small pb-20">{{sezione6.left.text}}</p>
                             </div>
                         </div>
@@ -169,7 +170,7 @@
                             <div class="dflex b-1">
                                 <img class="h-card-sezione6" :src="cardContenuti.imgSrc" alt="cardContenuti.title">
                                 <div class="text-left mr-20 flex-column-center-personalizzata">
-                                    <p class="title text-orange text-bold text-medium pb-10">{{cardContenuti.title}}</p>
+                                    <p class="title text-orange-dark text-bold text-medium pb-10">{{cardContenuti.title}}</p>
                                     <p class="descrition text-gray text-small ridutore">{{cardContenuti.text}}</p>
                                 </div>
                             </div>
@@ -179,25 +180,25 @@
                 </div>
 
                 <div class="px-20 pt-40">
-                    <span class="w-100 btn btn-orange-full">Vedi altri articoli</span>
+                    <span class="w-100 btn btn-red-full uppercase">view all our article</span>
                 </div>
 
             </div>
         </section>
 
         <!-- sezione 7 -->
-        <section class="bg-white">
+        <section class="bg-image-4">
             <div class="container text-center">
 
                 <div class="header-section py-100">
                     
-                    <p class="titleDiv-center uppercase text-bold text-big text-black">Visita il mondo con un click</p>
-                    <p class="descritionTitle text-medium py-60 height-line-35">Visita qualunque posto del mondo, guarda articoli correlati sui luoghi più belli e affascinanti al mondo, scopri nuovi orizzonti</p>
+                    <p class="titleDiv-center uppercase text-bold text-big">change a life today</p>
+                    <p class="descritionTitle text-medium py-60 height-line-35">As long as poverty, injudtice & inequality persist, none of use can truly rest. it doesn't take much to change of life. Get in touch today and start making the dofference.</p>
                     
 
-                    <div class="buttonContainer text-medium">
-                        <span class="text-bold btn btn-orange-full uppercase mx-7">Curiosità</span>
-                        <span class="text-bold btn btn-orange-full uppercase mx-7">Archivio di foto</span>
+                    <div class="buttonContainer text-small">
+                        <span class="text-bold btn btn-transparent uppercase mx-7">volunteer</span>
+                            <span class="text-bold btn btn-orange uppercase mx-7">donate now</span>
                     </div>
 
                 </div>
@@ -206,13 +207,12 @@
         </section>
 
         <!-- sezione 8 -->
-        <section class="randomImage text-center py-60">
+        <section class="bg-yellow text-center py-60">
             
-            <div class="container text-center">
-                
-                <img class="w-30" src="images/extra/logo.png" alt="logo">
-
+            <div class="container text-center bg-yellow">
+                <img class="w-30" src="images\avada-charity-mobile-logo-retina.png" alt="logo">
             </div>
+
         </section>
 
         <!-- footer -->
