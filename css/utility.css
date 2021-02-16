@@ -418,7 +418,7 @@ img.logo{
 }
 
 .header-card-news:hover .overlay {
-    display: block;
+    display: flex;
 }
 
 .overlay{
