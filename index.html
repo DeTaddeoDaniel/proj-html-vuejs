@@ -140,40 +140,46 @@
         <section class="randomImage text-center pb-100">
             
             <div class="container">
+                
                 <div class="header-section py-100">
-                <p class="text-big titleDiv-center">Paesaggi del mondo</p>
-                <p class="text-medium">Alcuni articoli sui più belli del mondo </p>
-            </div>
-
-            <div class="dflex">
-
-                <div class="left-particolare w-6 px-20 max-h-450">
-                    
-                    <div class="card last b-1 h-100">
-                        <img class="pb-20" :src="sezione6.left.imgSrc" :alt="sezione6.left.title">
-
-                        <div class="card-main px-20">
-                            <p class="title text-orange text-bold text-medium pb-20">{{sezione6.left.title}}</p>
-                            <p class="max-h-29 descrition text-gray text-small pb-20">{{sezione6.left.text}}</p>
-                        </div>
-                    </div>
+                    <p class="text-big titleDiv-center">Paesaggi del mondo</p>
+                    <p class="text-medium">Alcuni articoli sui più belli del mondo </p>
                 </div>
-                    
-                <div class="rigth w-6 px-20 flex-column-center">
 
-                    <div class="card py-10" v-for="cardContenuti in sezione6.right">
-                        <div class="dflex b-1">
-                            <img class="h-card-sezione6" :src="cardContenuti.imgSrc" alt="cardContenuti.title">
-                            <div class="text-left mr-20 flex-column-center-personalizzata">
-                                <p class="title text-orange text-bold text-medium pb-10">{{cardContenuti.title}}</p>
-                                <p class="descrition text-gray text-small ridutore">{{cardContenuti.text}}</p>
+                <div class="dflex">
+
+                    <div class="left-particolare w-6 px-20 max-h-450">
+                        
+                        <div class="card last b-1 h-100">
+                            <img class="pb-20" :src="sezione6.left.imgSrc" :alt="sezione6.left.title">
+
+                            <div class="card-main px-20">
+                                <p class="title text-orange text-bold text-medium pb-20">{{sezione6.left.title}}</p>
+                                <p class="max-h-29 descrition text-gray text-small pb-20">{{sezione6.left.text}}</p>
                             </div>
                         </div>
                     </div>
-                </div>  
+                        
+                    <div class="rigth w-6 px-20 flex-column-center">
+
+                        <div class="card py-10" v-for="cardContenuti in sezione6.right">
+                            <div class="dflex b-1">
+                                <img class="h-card-sezione6" :src="cardContenuti.imgSrc" alt="cardContenuti.title">
+                                <div class="text-left mr-20 flex-column-center-personalizzata">
+                                    <p class="title text-orange text-bold text-medium pb-10">{{cardContenuti.title}}</p>
+                                    <p class="descrition text-gray text-small ridutore">{{cardContenuti.text}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+
+                </div>
+
+                <div class="px-20 pt-40">
+                    <span class="w-100 btn btn-orange-full">Vedi altri articoli</span>
+                </div>
 
             </div>
-
         </section>
 
     </div>
