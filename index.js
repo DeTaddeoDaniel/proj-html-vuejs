@@ -80,8 +80,8 @@ new Vue({
         ],
 
         // sezione 4: card
-        sezione5:{
-            
+        sezione6:{
+
             left:{
                 imgSrc: 'images/extra/sezione6item1.webp',
                 title: 'Cala Luna, Italia',
