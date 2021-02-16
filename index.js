@@ -106,8 +106,8 @@ new Vue({
                 },
                 {
                     imgSrc: 'images/extra/sezione6item5.webp',
-                    title: 'Danubio, Austria',
-                    text: '  paesaggi della Valle del Danubio: come la Schloegener Schlinge, un’ansa-gioiello. Scendete poi in Bassa Austria e affrontate il Wachau World Heritage Trail, fra le pittoresche cittadine di Melk e Krems.'
+                    title: 'Lago di Braies, Italia',
+                    text: '  Per chi ancora non lo sapesse, in Val Pusteria, ai piedi della maestosa Croda del Becco, si trova un meraviglioso lago alpino dai colori sgargianti che virano dal turchino allo smeraldo, e che riflettono come uno specchio la parete dolomitica che vi si affaccia incontrastata.'
                 },            
             ]
         }

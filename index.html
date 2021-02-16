@@ -137,7 +137,7 @@
         </section>
 
         <!-- sezione 6 -->
-        <section class="randomImage text-center">
+        <section class="randomImage text-center pb-100">
             
             <div class="container">
                 <div class="header-section py-100">
@@ -147,9 +147,9 @@
 
             <div class="dflex">
 
-                <div class="left-particolare w-6 px-20 max-h-450 pb-20">
+                <div class="left-particolare w-6 px-20 max-h-450">
                     
-                    <div class="card last">
+                    <div class="card last b-1 h-100">
                         <img class="pb-20" :src="sezione6.left.imgSrc" :alt="sezione6.left.title">
 
                         <div class="card-main px-20">
@@ -161,11 +161,12 @@
                     
                 <div class="rigth w-6 px-20 flex-column-center">
 
-                    <div class="card" v-for="cardContenuti in sezione6.right">
-                        <div class="content dflex">
-                            <div class="flex-column">
-                                <p class="title text-orange text-bold text-medium pb-20">{{cardContenuti.title}}</p>
-                                <p class="max-h-29 descrition text-gray text-small pb-20">{{cardContenuti.text}}</p>
+                    <div class="card py-10" v-for="cardContenuti in sezione6.right">
+                        <div class="dflex b-1">
+                            <img class="h-card-sezione6" :src="cardContenuti.imgSrc" alt="cardContenuti.title">
+                            <div class="text-left mr-20 flex-column-center-personalizzata">
+                                <p class="title text-orange text-bold text-medium pb-10">{{cardContenuti.title}}</p>
+                                <p class="descrition text-gray text-small ridutore">{{cardContenuti.text}}</p>
                             </div>
                         </div>
                     </div>
