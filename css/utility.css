@@ -271,7 +271,7 @@ img.logo{
 }
 /* ------------------ BACKGROUND --------------------------------- */
 .bg-white{
-    background-color: var(--bianco);
+    background-color: var(--grigioSezioni);
     color: var(--grigio);
 }
 
