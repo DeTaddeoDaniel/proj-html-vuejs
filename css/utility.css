@@ -99,6 +99,16 @@ img.logo{
     background-color: var(--grigioScuro);
 }
 
+.max-h-450{
+    height: 470px;
+    overflow: hidden;
+}
+
+.max-h-29{
+    max-height: 29px;
+    overflow: hidden;
+}
+
 /* --------------- FLEX ------------------------------ */
 
 .dflex-center-center{
