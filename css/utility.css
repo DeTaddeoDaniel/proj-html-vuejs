@@ -279,6 +279,11 @@ img.logo{
     padding-right:20px;
 }
 
+.px-7{
+    padding-left: 7px;
+    padding-right:7px;
+}
+
 .py-10{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -439,4 +444,12 @@ img.logo{
 
 .overlay-content{
     padding: 15%;
+}
+
+.border-right{
+    border-right: 2px solid var(--bianco);
+}
+
+.border-right:last-child{
+    border-right: 0;
 }

@@ -233,7 +233,9 @@
 
         <!-- footer -->
         <section class="bg-gray text-center py-30">
-            <p class="pb-30 text-white">Copyright del layout della pagina,frase lunga lunga, e con altrotesto aggiunto</p>
+            <p class="pb-30 text-white">
+                <span class="px-7 border-right" v-for="testo in copyright">{{testo}}</span>
+            </p>
             <div class="contatti text-white text-medium dflex-center">
                 <div class="social mx-10" v-for="social in socials">
                     <p v-html="social"></p>

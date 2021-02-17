@@ -118,5 +118,13 @@ new Vue({
             `<i class="fab fa-twitter"></i>`,
             `<i class="fab fa-youtube"></i>`
         ],
+
+        // footer copyright
+        copyright: [
+            'Copyright 2012 - 2020 Avada theme by',
+            'theme fusion',
+            'All rights reserved',
+            'Powered by wordpress',
+        ],
     }
 })
